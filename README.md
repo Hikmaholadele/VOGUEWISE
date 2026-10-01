@@ -32,9 +32,6 @@ VOGUEWISE/
 │
 ├── index.html
 ├── fashion.css
-├── script.js
-└── assets/
-    └── images/
 ```
 
 ## Getting Started
@@ -42,7 +39,7 @@ VOGUEWISE/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/VOGUEWISE.git
+git clone https://github.com/Hikmaholadele/VOGUEWISE.git
 ```
 
 ### 2. Navigate into the project
