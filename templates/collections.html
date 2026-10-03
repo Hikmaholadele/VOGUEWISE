@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="VogueWise collections — curated fashion for modern living."
+  >
+
+  <title>Collections | VogueWise</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  >
+
+  <link rel="stylesheet" href="../css/fashion.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav">
+
+      <a href="../index.html" class="logo">
+        Vogue<span>Wise</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="#women">Women</a>
+        <a href="#men">Men</a>
+        <a href="#kids">Kids</a>
+        <a href="#beauty">Beauty</a>
+      </nav>
+
+      <div class="nav-actions">
+
+        <button
+          class="cart-button"
+          id="cartButton"
+          type="button"
+          aria-label="Open shopping cart"
+        >
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- PAGE INTRO -->
+    <section class="section">
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">VogueWise</p>
+            <h1>Shop the collections</h1>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- WOMEN -->
+    <section class="section" id="women">
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">The edit</p>
+            <h2>Women</h2>
+          </div>
+        </div>
+
+        <div class="product-grid">
+
+          <!-- Product 1 -->
+          <article class="product-card">
+
+            <div class="product-image">
+              <img
+                src="../images/classic-white-shirt.jpg"
+                alt="Classic White Shirt"
+              >
+
+              <button
+                class="quick-add"
+                type="button"
+                data-product-id="1"
+                aria-label="Add Classic White Shirt to cart"
+              >
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+
+            <div class="product-info">
+              <span class="product-label">Essential Collection</span>
+              <h3>Classic White Shirt</h3>
+              <p>$49.00</p>
+            </div>
+
+          </article>
+
+
+          <!-- Product 3 -->
+          <article class="product-card">
+
+            <div class="product-image">
+              <img
+                src="../images/satin-midi-dress.jpg"
+                alt="Satin Midi Dress"
+              >
+
+              <button
+                class="quick-add"
+                type="button"
+                data-product-id="3"
+                aria-label="Add Satin Midi Dress to cart"
+              >
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+
+            <div class="product-info">
+              <span class="product-label">Occasion Edit</span>
+              <h3>Satin Midi Dress</h3>
+              <p>$89.00</p>
+            </div>
+
+          </article>
+
+
+          <!-- Product 5 -->
+          <article class="product-card">
+
+            <div class="product-image">
+              <img
+                src="../images/summer-dress.jpg"
+                alt="Summer Dress"
+              >
+
+              <button
+                class="quick-add"
+                type="button"
+                data-product-id="5"
+                aria-label="Add Summer Dress to cart"
+              >
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+
+            <div class="product-info">
+              <span class="product-label">New Arrival</span>
+              <h3>Summer Dress</h3>
+              <p>$79.00</p>
+            </div>
+
+          </article>
+
+
+          <!-- Product 6 -->
+          <article class="product-card">
+
+            <div class="product-image">
+              <img
+                src="../images/relaxed-blazer.jpg"
+                alt="Relaxed Blazer"
+              >
+
+              <button
+                class="quick-add"
+                type="button"
+                data-product-id="6"
+                aria-label="Add Relaxed Blazer to cart"
+              >
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+
+            <div class="product-info">
+              <span class="product-label">Modern Tailoring</span>
+              <h3>Relaxed Blazer</h3>
+              <p>$99.00</p>
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- MEN -->
+    <section class="section" id="men">
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">The edit</p>
+            <h2>Men</h2>
+          </div>
+        </div>
+
+        <div class="product-grid">
+
+          <!-- Product 7 -->
+          <article class="product-card">
+
+            <div class="product-image">
+              <img
+                src="../images/everyday-overshirt.jpg"
+                alt="Everyday Overshirt"
+              >
+
+              <button
+                class="quick-add"
+                type="button"
+                data-product-id="7"
+                aria-label="Add Everyday Overshirt to cart"
+              >
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+
+            <div class="product-info">
+              <span class="product-label">Everyday Edit</span>
+              <h3>Everyday Overshirt</h3>
+              <p>$65.00</p>
+            </div>
+
+          </article>
+
+
+          <!-- Product 2 -->
+          <article class="product-card">
+
+            <div class="product-image">
+              <img
+                src="../images/slim-fit-denim.jpg"
+                alt="Slim Fit Denim"
+              >
+
+              <button
+                class="quick-add"
+                type="button"
+                data-product-id="2"
+                aria-label="Add Slim Fit Denim to cart"
+              >
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+
+            <div class="product-info">
+              <span class="product-label">Everyday Edit</span>
+              <h3>Slim Fit Denim</h3>
+              <p>$69.00</p>
+            </div>
+
+          </article>
+
+
+          <!-- Product 8 -->
+          <article class="product-card">
+
+            <div class="product-image">
+              <img
+                src="../images/relaxed-shirt.jpg"
+                alt="Relaxed Shirt"
+              >
+
+              <button
+                class="quick-add"
+                type="button"
+                data-product-id="8"
+                aria-label="Add Relaxed Shirt to cart"
+              >
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+
+            <div class="product-info">
+              <span class="product-label">Daily Essentials</span>
+              <h3>Relaxed Shirt</h3>
+              <p>$55.00</p>
+            </div>
+
+          </article>
+
+
+          <!-- Product 9 -->
+          <article class="product-card">
+
+            <div class="product-image">
+              <img
+                src="../images/classic-blazer.jpg"
+                alt="Classic Blazer"
+              >
+
+              <button
+                class="quick-add"
+                type="button"
+                data-product-id="9"
+                aria-label="Add Classic Blazer to cart"
+              >
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+
+            <div class="product-info">
+              <span class="product-label">Tailoring</span>
+              <h3>Classic Blazer</h3>
+              <p>$110.00</p>
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- KIDS -->
+    <section class="section" id="kids">
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">The edit</p>
+            <h2>Kids</h2>
+          </div>
+        </div>
+
+        <div class="product-grid">
+
+          <!-- Product 10 -->
+          <article class="product-card">
+
+            <div class="product-image">
+              <img
+                src="../images/everyday-set.jpg"
+                alt="Everyday Set"
+              >
+
+              <button
+                class="quick-add"
+                type="button"
+                data-product-id="10"
+                aria-label="Add Everyday Set to cart"
+              >
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+
+            <div class="product-info">
+              <span class="product-label">Kids Essentials</span>
+              <h3>Everyday Set</h3>
+              <p>$39.00</p>
+            </div>
+
+          </article>
+
+
+          <!-- Product 11 -->
+          <article class="product-card">
+
+            <div class="product-image">
+              <img
+                src="../images/weekend-outfit.jpg"
+                alt="Weekend Outfit"
+              >
+
+              <button
+                class="quick-add"
+                type="button"
+                data-product-id="11"
+                aria-label="Add Weekend Outfit to cart"
+              >
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+
+            <div class="product-info">
+              <span class="product-label">Weekend Edit</span>
+              <h3>Weekend Outfit</h3>
+              <p>$45.00</p>
+            </div>
+
+          </article>
+
+
+          <!-- Product 12 -->
+          <article class="product-card">
+
+            <div class="product-image">
+              <img
+                src="../images/soft-knit-set.jpg"
+                alt="Soft Knit Set"
+              >
+
+              <button
+                class="quick-add"
+                type="button"
+                data-product-id="12"
+                aria-label="Add Soft Knit Set to cart"
+              >
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+
+            <div class="product-info">
+              <span class="product-label">Soft Essentials</span>
+              <h3>Soft Knit Set</h3>
+              <p>$42.00</p>
+            </div>
+
+          </article>
+
+
+          <!-- Product 13 -->
+          <article class="product-card">
+
+            <div class="product-image">
+              <img
+                src="../images/summer-outfit.jpg"
+                alt="Summer Outfit"
+              >
+
+              <button
+                class="quick-add"
+                type="button"
+                data-product-id="13"
+                aria-label="Add Summer Outfit to cart"
+              >
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+
+            <div class="product-info">
+              <span class="product-label">Summer Edit</span>
+              <h3>Summer Outfit</h3>
+              <p>$48.00</p>
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- BEAUTY -->
+    <section class="section" id="beauty">
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">The edit</p>
+            <h2>Beauty</h2>
+          </div>
+        </div>
+
+        <div class="product-grid">
+
+          <!-- Product 14 -->
+          <article class="product-card">
+
+            <div class="product-image">
+              <img
+                src="../images/signature-fragrance.jpg"
+                alt="Signature Fragrance"
+              >
+
+              <button
+                class="quick-add"
+                type="button"
+                data-product-id="14"
+                aria-label="Add Signature Fragrance to cart"
+              >
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+
+            <div class="product-info">
+              <span class="product-label">Fragrance</span>
+              <h3>Signature Fragrance</h3>
+              <p>$59.00</p>
+            </div>
+
+          </article>
+
+
+          <!-- Product 15 -->
+          <article class="product-card">
+
+            <div class="product-image">
+              <img
+                src="../images/daily-skin-set.jpg"
+                alt="Daily Skin Set"
+              >
+
+              <button
+                class="quick-add"
+                type="button"
+                data-product-id="15"
+                aria-label="Add Daily Skin Set to cart"
+              >
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+
+            <div class="product-info">
+              <span class="product-label">Skincare</span>
+              <h3>Daily Skin Set</h3>
+              <p>$52.00</p>
+            </div>
+
+          </article>
+
+
+          <!-- Product 16 -->
+          <article class="product-card">
+
+            <div class="product-image">
+              <img
+                src="../images/glow-essentials.jpg"
+                alt="Glow Essentials"
+              >
+
+              <button
+                class="quick-add"
+                type="button"
+                data-product-id="16"
+                aria-label="Add Glow Essentials to cart"
+              >
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+
+            <div class="product-info">
+              <span class="product-label">Beauty Edit</span>
+              <h3>Glow Essentials</h3>
+              <p>$45.00</p>
+            </div>
+
+          </article>
+
+
+          <!-- Product 17 -->
+          <article class="product-card">
+
+            <div class="product-image">
+              <img
+                src="../images/hydration-set.jpg"
+                alt="Hydration Set"
+              >
+
+              <button
+                class="quick-add"
+                type="button"
+                data-product-id="17"
+                aria-label="Add Hydration Set to cart"
+              >
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+
+            <div class="product-info">
+              <span class="product-label">Skincare</span>
+              <h3>Hydration Set</h3>
+              <p>$49.00</p>
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- CART OVERLAY -->
+  <div
+    class="cart-overlay"
+    id="cartOverlay"
+  ></div>
+
+
+  <!-- CART DRAWER -->
+  <aside
+    class="cart-drawer"
+    id="cartDrawer"
+    aria-hidden="true"
+  >
+
+    <div class="cart-header">
+
+      <h2>Your Cart</h2>
+
+      <button
+        id="cartClose"
+        type="button"
+        aria-label="Close cart"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+    </div>
+
+
+    <div
+      class="cart-items"
+      id="cartItems"
+    ></div>
+
+
+    <div
+      class="cart-empty"
+      id="cartEmpty"
+    >
+      <p>Your cart is empty.</p>
+
+      <button
+        class="button button-outline"
+        id="continueShopping"
+        type="button"
+      >
+        Continue Shopping
+      </button>
+    </div>
+
+
+    <div class="cart-footer">
+
+      <div class="cart-total">
+        <span>Total</span>
+        <strong id="cartTotal">$0.00</strong>
+      </div>
+
+      <button
+        class="button button-dark checkout-button"
+        type="button"
+      >
+        Proceed to Checkout
+      </button>
+
+    </div>
+
+  </aside>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="container footer-main">
+
+      <div class="footer-brand">
+
+        <a href="../index.html" class="logo">
+          Vogue<span>Wise</span>
+        </a>
+
+        <p>
+          Curated fashion for modern living.
+        </p>
+
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="#" aria-label="Pinterest">
+            <i class="fa-brands fa-pinterest-p"></i>
+          </a>
+
+          <a href="#" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </div>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <div>
+          <h3>Shop</h3>
+
+          <a href="#women">Women</a>
+          <a href="#men">Men</a>
+          <a href="#kids">Kids</a>
+          <a href="#beauty">Beauty</a>
+        </div>
+
+
+        <div>
+          <h3>VogueWise</h3>
+
+          <a href="../index.html">Home</a>
+          <a href="../index.html#featured">Featured</a>
+          <a href="../index.html#services">Services</a>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="container footer-bottom">
+
+      <p>
+        &copy; 2026 VogueWise. All rights reserved.
+      </p>
+
+      <p>
+        Modern fashion, thoughtfully curated.
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <!-- ONLY ONE JAVASCRIPT FILE -->
+  <script src="../js/script.js"></script>
+
+</body>
+</html>
