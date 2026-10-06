@@ -1221,3 +1221,29 @@ footer {
   }
 
 }
+
+/* Collections page intro */
+.collections-hero {
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.35)
+    ),
+    url("https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1800&q=85");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.collections-hero .section-heading {
+  margin: 0;
+}
+
+.collections-hero .eyebrow,
+.collections-hero h1 {
+  color: #fff;
+}
