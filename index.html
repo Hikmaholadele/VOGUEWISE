@@ -175,8 +175,7 @@
       </div>
     </section>
 
-
-    <!-- Featured Products -->
+    
     <section class="products section" id="featured">
 
       <div class="container">
@@ -198,6 +197,8 @@
 
         <div class="product-grid">
 
+          <!-- Classic White Shirt -->
+
           <article class="product-card">
 
             <div class="product-image">
@@ -209,6 +210,8 @@
 
               <button
                 class="quick-add"
+                type="button"
+                data-product-id="1"
                 aria-label="Add Classic White Shirt to cart"
               >
                 +
@@ -232,6 +235,8 @@
           </article>
 
 
+          <!-- Slim Fit Denim -->
+
           <article class="product-card">
 
             <div class="product-image">
@@ -243,6 +248,8 @@
 
               <button
                 class="quick-add"
+                type="button"
+                data-product-id="2"
                 aria-label="Add Slim Fit Denim to cart"
               >
                 +
@@ -264,6 +271,8 @@
           </article>
 
 
+          <!-- Satin Midi Dress -->
+
           <article class="product-card">
 
             <div class="product-image">
@@ -275,6 +284,8 @@
 
               <button
                 class="quick-add"
+                type="button"
+                data-product-id="3"
                 aria-label="Add Satin Midi Dress to cart"
               >
                 +
@@ -298,6 +309,8 @@
           </article>
 
 
+          <!-- Minimal Knitwear -->
+
           <article class="product-card">
 
             <div class="product-image">
@@ -309,6 +322,8 @@
 
               <button
                 class="quick-add"
+                type="button"
+                data-product-id="4"
                 aria-label="Add Minimal Knitwear to cart"
               >
                 +
@@ -330,9 +345,13 @@
           </article>
 
         </div>
+
       </div>
+
     </section>
 
+
+    
 
     <!-- Editorial -->
     <section class="editorial section container" id="collections">
@@ -652,23 +671,6 @@
 
         menuToggle.innerHTML =
           '<i class="fas fa-bars"></i>';
-
-      });
-
-    });
-
-
-    document.querySelectorAll('.quick-add').forEach((button, index) => {
-
-      button.addEventListener('click', () => {
-
-        addToCart(index + 1);
-
-        button.textContent = '✓';
-
-        setTimeout(() => {
-          button.textContent = '+';
-        }, 900);
 
       });
 
